@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>BEM CSS - szkolenie</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
 <header class="page-header">
@@ -62,15 +62,99 @@
 
 <section class="advert">
     <div class="advert__container">
-        <article class="advert__content">
-            <h1 class="advert__header"><span>Oferujemy wysoki poziom zabezpieczeń</span></h1>
-            <p></p>
-        </article>
         <aside class="advert__image">
-            <img src="images/advertising/advert-image.png">
+            <img src="images/advertising/advert-image.png" alt="Treść">
         </aside>
+        <article class="advert__content">
+            <h2 class="advert__header">
+                <span>Oferujemy wysoki poziom zabezpieczeń</span>
+            </h2>
+            <p class="advert__text">Miejsce do przechowywania różnych danych, do których można uzyskać dostęp w dowolnym momencie za pośrednictwem Internetu i gdzie można je przenosić.
+                Ten bardzo elastyczny obszar przechowywania zapewnia wysoki poziom bezpieczeństwa. Aby wprowadzić własne dane, musisz wprowadzić hasło utworzone podczas rejestracji w naszej bazie danych.</p>
+        </article>
     </div>
 </section>
+
+<main class="main-content">
+    <div class="main-content__container">
+        <article class="main-content__description">
+            <h2 class="main-content__description-header"><span>Zalety</span></h2>
+            <p class="main-content__description-text">
+                Poniżej przedstawiamy funkcje i zalety, które zapewniamy tym, którzy korzystają z naszej bazy danych.
+            </p>
+        </article>
+        <article class="articles-list">
+            <article class="articles-list__item">
+                <aside class="articles-list__item-image">
+                    <img src="images/content/1.png" alt="Wyszukiwanie">
+                </aside>
+                <section class="articles-list__item-content">
+                    <h3 class="articles-list__item-title">
+                        <span>Wyszukiwanie</span>
+                    </h3>
+                    <p class="articles-list__item-text">
+                        Nie martw się, jeśli chcesz przechowywać u nas dużą ilość plików. Baza danych zapewnia Ci udostępnia Ci wyszukiwarkę, która jest przydatna, do wyszukiwania.
+                    </p>
+                    <aside class="articles-list__item-link">
+                        <a href="#"><span>Dowiedz się więcej</span></span></a>
+                    </aside>
+                </section>
+            </article>
+
+            <article class="articles-list__item">
+                <aside class="articles-list__item-image">
+                    <img src="images/content/2.png" alt="Dostęp 24 godziny">
+                </aside>
+                <section class="articles-list__item-content">
+                    <h3 class="articles-list__item-title">
+                        <span>Dostęp 24 godziny</span>
+                    </h3>
+                    <p class="articles-list__item-text">
+                        Dostęp masz zapewniony przez całą dobę od rana do wieczora i spotkamy się ponownie rano, dając ci komfort, kiedy potrzebujesz danych, gdy jest to pilne.
+                    </p>
+                    <aside class="articles-list__item-link">
+                        <a href="#"><span>Dowiedz się więcej</span></span></a>
+                    </aside>
+                </section>
+            </article>
+
+            <article class="articles-list__item">
+                <aside class="articles-list__item-image">
+                    <img src="images/content/3.png" alt="Wydruk">
+                </aside>
+                <section class="articles-list__item-content">
+                    <h3 class="articles-list__item-title">
+                        <span>Wydruk</span>
+                    </h3>
+                    <p class="articles-list__item-text">
+                        Usługa wydruku zapewnia wygodę, jeśli któregoś dnia
+                        potrzebujesz danych do wydruku, po prostu edytuj wszystko i po prostu wydrukuj.
+                    </p>
+                    <aside class="articles-list__item-link">
+                        <a href="#"><span>Dowiedz się więcej</span></span></a>
+                    </aside>
+                </section>
+            </article>
+
+            <article class="articles-list__item">
+                <aside class="articles-list__item-image">
+                    <img src="images/content/4.png" alt="tekst">
+                </aside>
+                <section class="articles-list__item-content">
+                    <h3 class="articles-list__item-title">
+                        <span>Bezpieczeństwo</span>
+                    </h3>
+                    <p class="articles-list__item-text">
+                        Bezpieczeństwo danych jest jednym z naszych najlepszych udogodnień. Pozwala na twoje pliki być bezpieczniejszym. Plik można zabezpieczyć kodem lub hasłem.
+                    </p>
+                    <aside class="articles-list__item-link">
+                        <a href="#"><span>Dowiedz się więcej</span></span></a>
+                    </aside>
+                </section>
+            </article>
+        </article>
+    </div>
+</main>
 
 </body>
 </html>

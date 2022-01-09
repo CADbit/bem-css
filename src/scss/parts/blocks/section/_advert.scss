@@ -1,0 +1,42 @@
+.advert {
+
+  @media screen and (min-width: $xl-break-point) {
+
+    margin-top: 150px;
+
+    &__container {
+      display: flex !important;
+      flex-direction: row;
+      width: $xl-container-width;
+      align-items: center;
+      margin: 0 auto;
+      padding: 85px 70px;
+      background: rgba(240, 99, 184, 0.15);
+      border-radius: 50px;
+      box-sizing: border-box;
+    }
+
+    &__image {
+    flex: 0 0 50%;
+      margin-right: 5%;
+    }
+
+    &__content {
+      flex: 0 0 40%;
+      margin-left: 5%;
+    }
+
+      &__header {
+        font-size: 40px;
+        font-weight: 700;
+        margin: 0 0 40px;
+        line-height: 130%;
+      }
+
+      &__text {
+        text-align: justify;
+      }
+
+  }
+
+}

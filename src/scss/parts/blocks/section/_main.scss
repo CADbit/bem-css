@@ -1,0 +1,36 @@
+.main-content {
+
+  @media screen and (min-width: $xl-break-point) {
+
+    margin-top: 150px;
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      width: $xl-container-width;
+      align-items: flex-start;
+      margin: 0 auto;
+    }
+
+    &__description {
+      width: 100%;
+      margin-bottom: 100px;
+      padding: 0 25%;
+      text-align: center;
+      box-sizing: border-box;
+
+      &-header {
+        margin: 0 0 40px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 130%;
+      }
+
+      &-text {
+        line-height: 110%;
+        flex: 0 0 50%;
+      }
+    }
+  }
+
+}
