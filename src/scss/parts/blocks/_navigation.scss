@@ -1,0 +1,32 @@
+.main-navigation {
+
+  position: relative;
+
+  @media screen and (min-width: $xl-break-point) {
+    &__list {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    &__list-item {
+      margin-right: 50px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &__list-link {
+      color: $secondary-font-color;
+      &--active {
+        color: $primary-font-color;
+        font-weight: 900;
+      }
+    }
+
+  }
+
+}

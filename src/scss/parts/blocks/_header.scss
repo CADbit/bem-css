@@ -1,0 +1,49 @@
+.page-header {
+
+  margin-top: 50px;
+
+  @media screen and (min-width: $xl-break-point) {
+    &__container {
+      display: flex;
+      flex-direction: row;
+      width: $xl-container-width;
+      height: 60px;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    &__logo {
+      flex: 0 0 10%;
+      width: 10%;
+      margin-right: 5%;
+
+      &-link {
+        display: block;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+
+      &-image {
+
+      }
+    }
+
+    .main-navigation {
+      flex: 0 0 50%;
+      width: 50%;
+      margin-right: 10%;
+    }
+
+    &__goto {
+      flex: 0 0 25%;
+      width: 25%;
+    }
+
+
+    &__goto-button {
+      font-size: $main-font-size;
+    }
+  }
+
+}

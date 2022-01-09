@@ -1,0 +1,45 @@
+.about-us {
+
+  @media screen and (min-width: $xl-break-point) {
+
+    margin-top: 150px;
+
+    &__container {
+      display: flex;
+      flex-direction: row;
+      width: $xl-container-width;
+      align-items: flex-start;
+      margin: 0 auto;
+    }
+
+    &__content {
+      flex:  0 0 40%;
+      max-width: 40%;
+    }
+
+      &__header {
+        width: 110%;
+        margin: 0 0 20px;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 110%;
+      }
+
+      &__text {
+        margin-bottom: 50px;
+        padding-right: 50px;
+      }
+
+      &__button {
+        margin-bottom: 0;
+      }
+
+    &__image {
+      flex: 0 0 60%;
+      max-width: 60%;
+      padding-top: 70px;
+    }
+
+  }
+
+}
