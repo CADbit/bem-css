@@ -121,6 +121,100 @@ img {
   }
 }
 
+.page-footer {
+  border-top: 2px solid rgba(156, 105, 226, 0.1);
+}
+@media screen and (min-width: 1200px) {
+  .page-footer {
+    margin: 200px 0 100px;
+    padding-top: 100px;
+  }
+  .page-footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1140px;
+    align-items: flex-start;
+    margin: 0 auto;
+  }
+  .page-footer__section {
+    flex: 0 0 15%;
+  }
+  .page-footer__section--contact-section {
+    flex: 0 0 40%;
+    margin-right: 5%;
+  }
+  .page-footer__section--socials-section {
+    flex: 0 0 20%;
+    margin-left: 5%;
+  }
+  .page-footer__section-header {
+    display: flex;
+    align-items: center;
+    margin: 0 0 40px;
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .page-footer__section-header--contact-header {
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+  .page-footer__section-header--contact-header img {
+    margin-right: 20px;
+  }
+  .page-footer__contact-data {
+    padding-right: 50%;
+  }
+  .page-footer__contact-address {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+  }
+  .page-footer__contact-address--contact-data {
+    margin-top: 20px;
+    font-weight: 400;
+  }
+  .page-footer__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .page-footer__links-item {
+    margin-bottom: 10px;
+  }
+  .page-footer__socials {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .page-footer__socials-item {
+    width: 50px;
+    height: 50px;
+  }
+  .page-footer__socials-link {
+    display: block;
+    height: 100%;
+    border-radius: 50px;
+  }
+  .page-footer__socials-link--facebook {
+    background: rgba(33, 35, 83, 0.1) url("../images/facebook.png") center center no-repeat;
+  }
+  .page-footer__socials-link--twitter {
+    background: rgba(33, 35, 83, 0.1) url("../images/twitter.png") center center no-repeat;
+  }
+  .page-footer__socials-link--instagram {
+    background: rgba(33, 35, 83, 0.1) url("../images/instagram.png") center center no-repeat;
+  }
+  .page-footer__socials-link:hover {
+    opacity: 0.7;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .about-us {
     margin-top: 150px;
